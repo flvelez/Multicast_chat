@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""
-Multicast + Concurrency demo (UDP) for distributed systems labs.
-- Runs as a simple multicast chat/heartbeat node.
-- Demonstrates: joining/leaving a multicast group, sending messages, receiving concurrently,
-  and processing messages in a worker pool.
-Tested on Python 3.10+ (Linux, macOS, Windows).
-"""
+
 import argparse
 import socket
 import struct
